@@ -12,3 +12,7 @@
 //   }, 1000);
 // }, 1000);
 // console.log("DONE RUNNING");
+const res = fakeRequestPromise("www.stuff.com/coffee");
+res.then(() => {
+  console.log("IT WORKED");
+});
